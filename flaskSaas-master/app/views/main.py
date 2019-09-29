@@ -13,15 +13,21 @@ from keras.applications.resnet50 import preprocess_input, decode_predictions
 import numpy as np
 
 UPLOAD_FOLDER = '/home/sachin/Desktop/AI_Startup_Prototype/flaskSaaS-master/app/static/img'
-@app.route('/')
+#@app.route('/', methods=['GET'])
+#def upload_file():
+#	return render_template('index.html')
+@app.route('/', methods=['GET'])
+@app.route('/upload')
+def upload_file2():
+   return render_template('index.html')
+
+@app.route('/sw.js', methods=['GET'])
+def sw():
+    return app.send_static_file('sw.js')
 
 #disease_list = ['Atelectasis', 'Consolidation', 'Infiltration', 'Pneumothorax', 'Edema', 'Emphysema', \
                   # 'Fibrosis', 'Effusion', 'Pneumonia', 'Pleural_Thickening', 'Cardiomegaly', 'Nodule', 'Mass', \
-                  # 'Hernia']
-
-@app.route('/upload')
-def upload_file2():
-   return render_template('index.html')	
+                  # 'Hernia']	
 	
 @app.route('/uploaded', methods = ['GET', 'POST'])
 def upload_file():
