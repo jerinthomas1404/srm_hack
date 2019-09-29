@@ -6,3 +6,10 @@ In India, COPD(Chronic Pulmonary Disease) is the second-highest cause of death a
 
 ### Solution
 Amateur doctors and misdiagnosis are the leading cause of deaths in India. Deep-learning models can solve this problem with higher accuracy and speed, cost-effectively
+
+![architecture](https://user-images.githubusercontent.com/30438352/65827811-c1cc6f00-e2b1-11e9-8588-ac8d47a476ea.png)
+
+
+## Train and test accuracy of Model
+
+![curves](https://user-images.githubusercontent.com/30438352/65827847-31425e80-e2b2-11e9-99cf-fb8a9bcfca83.png)
