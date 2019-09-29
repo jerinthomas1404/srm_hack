@@ -29,4 +29,5 @@ https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 1) Run the command "python manage.py runserver"
 2) Open "localhost:5000"
 
-Implementation
+## Implementation
+https://www.youtube.com/watch?v=L2OZzrh2fCk
