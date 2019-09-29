@@ -13,3 +13,12 @@ Amateur doctors and misdiagnosis are the leading cause of deaths in India. Deep-
 ## Train and test accuracy of Model
 
 ![curves](https://user-images.githubusercontent.com/30438352/65827847-31425e80-e2b2-11e9-99cf-fb8a9bcfca83.png)
+
+
+## Dependancies
+1) Flask
+2) Tensorflow
+3) Keras
+4) stripe
+
+
