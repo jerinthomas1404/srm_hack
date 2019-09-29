@@ -1,0 +1,60 @@
+{% extends "layout.html" %}
+
+{% block head %}
+    {{ super() }}
+{% endblock %}
+
+{% block content %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<body>
+	<!--img src="{{ user_image }}"-->
+	<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>Results</h2>
+
+<table>
+  <tr>
+    <th>Disease</th>
+    <th>Percent Likelihood</th>
+  </tr>
+  <tr>
+    <td>Pneumonia</td>
+    <td>{{ '{0:0.2f}'.format(predictions[0]*100) }}%</td>
+  </tr>
+  <tr>
+    <td>Normal</td>
+    <td>{{ '{0:0.2f}'.format(predictions[1]*100) }}%</td>
+  </tr>
+</table>
+
+</body>
+</html>
+    <title>Index</title>
+</head>
+<body>
+</body>
+</html>
+
+
+{% endblock %}

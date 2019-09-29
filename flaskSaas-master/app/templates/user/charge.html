@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block content %}
+
+ <center> <h2><font color='white'>Thanks, you paid <strong>₹200</strong>!</font></h2>
+  <h2><font color='white'>Upload your image below</font></h2>
+ </center>
+
+  <form action = "http://localhost:5000/uploaded" method = "POST" 
+         enctype = "multipart/form-data">
+         <input type = "file" name = "file" />
+         <input type = "submit"/>
+      </form>
+{% endblock %}
