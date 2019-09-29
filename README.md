@@ -14,6 +14,8 @@ Amateur doctors and misdiagnosis are the leading cause of deaths in India. Deep-
 
 ![curves](https://user-images.githubusercontent.com/30438352/65827847-31425e80-e2b2-11e9-99cf-fb8a9bcfca83.png)
 
+## Dataset
+https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
 ## Dependancies
 1) Flask
@@ -22,3 +24,9 @@ Amateur doctors and misdiagnosis are the leading cause of deaths in India. Deep-
 4) stripe
 
 
+## How to run
+
+1) Run the command "python manage.py runserver"
+2) Open "localhost:5000"
+
+Implementation
